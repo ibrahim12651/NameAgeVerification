@@ -29,10 +29,7 @@ print("Checking Name 1 seconds..")
 time.sleep(3)
 print("Successfully checked.")
 
-if (name=="İbrahim"):
-    time.sleep(1)
-    print("Your Name Is Correct")
-elif(name=="ibrahim"):
+if (name=="İbrahim") or (name=="ibrahim"):
     time.sleep(1)
     print("Your Name Is Correct")
 else:
